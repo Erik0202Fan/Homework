@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>網頁設計作業</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/jquery.min.js"></script> 
+<script src="js/parallaxie.min.js"></script>
+<script src="js/wow.min.js"></script>
+</head>
+
+<body class="dark-theme">
+<div class="container">
+  <header>
+    <h3 class="wow bounceIn">快速捷徑</h3>
+    <a href="#a01">這個網站的內容</a> <a href="#a02">所以暫時先</a> <a href="#a03">聽一首好聽的歌</a> </header>
+  <main>
+    <article>
+      <h3 id="a01">這個網站的內容 </h3>
+      <ul>
+        <li>
+          <h1>目前</h1>
+		</li>
+        <li>
+          <h2>作者</h2>
+		</li>
+        <li>
+          <h4>還不知道要</h4>
+		</li>
+        <li>
+          <h5>做什麼</h5>
+		</li>
+      </ul>
+    </article>
+    <article>
+      <h3 id="a02">所以暫時先</h3>
+      <ol>
+        <li class="wow fadeInRight">熟悉一下</li>
+        <li class="wow fadeInRight">
+          <h6>HTML語法</h6></li>
+        <li class="wow fadeInRight">的各種用法</li>
+      </ol>
+    </article>
+    <article>
+      <p class="wow bounceInDown">在這邊測試換<br>
+        行的功能</p>
+      <img src="assets/dogcat.jpg" class="wow bounceInRight">
+      <p class="wow headShake">看看可愛狗狗貓貓</p>
+      <p>
+      <h3 id="a03">聽一首好聽的歌</h3>
+      </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xA_4ZFe1TME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow bounceInRight"></iframe>
+    </article>
+  </main>
+</div>
+<script>
+$('header').parallaxie({speed: 0.4
+});
+</script> 
+<script>
+	new WOW().init();
+</script>
+</body>
+</html>
